@@ -1,0 +1,56 @@
+<html>
+<title>
+  Test page
+</title>
+
+<style type="text/css">
+#content {
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#header {
+  text-shadow: black 2px 2px 4px;
+  color: #E2E8E4;
+}
+
+#time {
+  text-shadow: black 2px 2px 4px;
+  color: #E2E8E4;
+  font-size: 20px;
+}
+</style>
+
+<body bgcolor="#6EB5C0">
+  <div id="content">
+    <h1 id="header"> It work's! </h1>
+    <span class="font-weight-bold" id="time"></span>
+  </div>
+</body>
+
+<script>
+var Node_time = document.createTextNode("");
+document.getElementById("time").appendChild(Node_time);
+
+nTimerID = window.setInterval("OnTimer()", 100);
+
+function OnTimer() {
+  var currentTime = new Date();
+
+  var seconds = Math.floor((currentTime / 1000) % 60);
+  var minutes = Math.floor((currentTime / 1000 / 60) % 60);
+  var hours = Math.floor((currentTime / (1000 * 60 * 60)) % 24);
+
+  Node_time.nodeValue =
+    "UTC: " +
+    ("0" + hours).slice(-2) +
+    ":" +
+    ("0" + minutes).slice(-2) +
+    ":" +
+    ("0" + seconds).slice(-2);
+}
+</script>
+</html>
