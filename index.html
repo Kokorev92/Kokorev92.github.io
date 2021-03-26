@@ -42,10 +42,9 @@ function OnTimer() {
 
   var seconds = Math.floor((currentTime / 1000) % 60);
   var minutes = Math.floor((currentTime / 1000 / 60) % 60);
-  var hours = Math.floor((currentTime / (1000 * 60 * 60)) % 24);
+  var hours = Math.floor((currentTime / (1000 * 60 * 60)) % 24) + 3;
 
   Node_time.nodeValue =
-    "UTC: " +
     ("0" + hours).slice(-2) +
     ":" +
     ("0" + minutes).slice(-2) +
