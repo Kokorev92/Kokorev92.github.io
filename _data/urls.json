@@ -19,10 +19,5 @@
         "text": "Резюме",
         "url": "/resume",
         "icon": "fa-graduation-cap"
-    },
-    {
-        "text": "Github",
-        "url": "https://github.com/Kokorev92",
-        "icon": "fa-github"
     }
 ]
