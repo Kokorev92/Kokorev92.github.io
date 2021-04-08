@@ -1,12 +1,11 @@
 [
     {
         "name": "Arduino Robot",
-        "image": "placeholder.jpg",
+        "image": "arduino-robot.jpg",
         "url": "/projects/arduino_robot",
-        "date": "Jan 2014",
+        "date": "Apr 2021",
         "tags": [
-            "Angular JS",
-            "API"
+            "Arduino"
         ]
     }
-]
+]b
