@@ -7,15 +7,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="shortcut icon" href="/static/img/favicon.ico" />
-        <title>Блог разработчика - Dev blog</title>
+        <title>Мои проекты - Dev blog</title>
         <meta name="author" content="Ярослав Кокорев" />
-        <meta name="description" content="Блог разработчика" />
-        <meta name="keywords" content="Блог разработчика, Dev blog, " />
+        <meta name="description" content="Мои проекты" />
+        <meta name="keywords" content="Мои проекты, Dev blog, " />
 
         <meta content="0" property="fb:app_id">
         <meta content="Dev blog" property="og:site_name">
         
-          <meta content="Блог разработчика" property="og:title">
+          <meta content="Мои проекты" property="og:title">
         
         
           <meta content="article" property="og:type">
@@ -24,7 +24,7 @@
           <meta content="Блог о программирвоании и электронике" property="og:description">
         
         
-          <meta content="http://localhost:8000/" property="og:url">
+          <meta content="http://localhost:8000/projects/" property="og:url">
         
         
         
@@ -36,10 +36,10 @@
         <meta name="twitter:site" content="@\#">
         <meta name="twitter:creator" content="@\#">
         
-          <meta name="twitter:title" content="Блог разработчика">
+          <meta name="twitter:title" content="Мои проекты">
         
         
-          <meta name="twitter:url" content="http://localhost:8000/">
+          <meta name="twitter:url" content="http://localhost:8000/projects/">
         
         
           <meta name="twitter:description" content="Блог о программирвоании и электронике">
@@ -103,7 +103,7 @@
                 <div class="row">
                     <h2
                         class="blog-title-pro col-md-6 col-sm-12 col-xs-12 ">
-                        Блог разработчика</h2>
+                        Мои проекты</h2>
                     
                     <!-- <div class="col-md-6 col-sm-12 col-xs-12 searchcontrol" id="js-search">
                         <input class="form-control" type="text" id="js-search__input" placeholder="Search">
@@ -124,7 +124,7 @@
         <div class="col-md-3 col-xs-12">
               <nav class="menu">
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="list-separator nav navbar-nav well well-primary default">
+    <ul class="list-separator nav navbar-nav well well-primary project">
 
 	
 	
@@ -134,7 +134,7 @@
 	
     
 	
-	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12 current-menu-item "><a href="/" target="_self"><i class="fa fa-home"></i> Главная</a></li>
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  projects"><a href="/" target="_self"><i class="fa fa-home"></i> Главная</a></li>
 
 	
 	
@@ -144,7 +144,7 @@
 	
     
 	
-	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  "><a href="/about/" target="_self"><i class="fa fa-comments"></i> Обо мне</a></li>
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  projects"><a href="/about/" target="_self"><i class="fa fa-comments"></i> Обо мне</a></li>
 
 	
 	
@@ -154,7 +154,7 @@
 	
     
 	
-	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  "><a href="/projects" target="_self"><i class="fa fa-desktop"></i> Проекты</a></li>
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12 current-menu-item projects"><a href="/projects" target="_self"><i class="fa fa-desktop"></i> Проекты</a></li>
 
 	
 	
@@ -164,7 +164,7 @@
 	
     
 	
-	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  "><a href="/resume" target="_self"><i class="fa fa-graduation-cap"></i> Резюме</a></li>
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  projects"><a href="/resume" target="_self"><i class="fa fa-graduation-cap"></i> Резюме</a></li>
 
 	
 	
@@ -174,7 +174,7 @@
 	
     
 	
-	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  "><a href="https://github.com/Kokorev92" target="_self"><i class="fa fa-github"></i> Github</a></li>
+	<li class="col-lg-12 col-md-12 col-sm-4 col-xs-12  projects"><a href="https://github.com/Kokorev92" target="_self"><i class="fa fa-github"></i> Github</a></li>
 
 </ul>
 
@@ -183,29 +183,68 @@
 
         </div>
         <div class="col-md-9 col-xs-12 full">
-          <div class="well">
-    <div class="list-group">
+          <article class="post">
+
+  <div class="post-content">
+    <p>Различные проекты</p>
+
+
+    <div class="projects row">
+     
+	<div id="tag-filter" class="col-md-12 col-xs-12 tag-group">
+		<span class="label tag-filter tag-cloud all">Reset</span>
         
-        <div class="list-group-item">
-            <div class="row-action-primary">
-                <i class="fa fa-sticky-note"></i>
-            </div>
-            <div class="row-content">
-                <div class="least-content">08 Apr 2021</div>
-                <h4 class="list-group-item-heading"><a href="/2021/04/08/first_post.html">Первый пост</a></h4>
-
-                <p class="list-group-item-text">Это первый тестовый пост в моём блоге
-</p>
-            </div>
-        </div>
-        <div class="list-group-separator"></div>
         
-    </div>
+
+        
+        
+
+        
+        
+            <span class="label tag-filter tag-cloud" data-tag="api">API</span>
+        
+            <span class="label tag-filter tag-cloud" data-tag="angular js">Angular JS</span>
+        
+	</div>
 
 
-    <!-- Pagination links -->
     
-</div><!-- end #home -->
+    <div class="project-item col-md-4 col-sm-6 col-xs-12" data-tags='["angular js","api"]'>
+    	<div class="well project-outer">
+    		<div class="project-inner">
+    			<a href="/static/projects/placeholder.jpg" class="thickbox">
+    			<div class="project-img bordered" style="background-image: url('/static/projects/placeholder.jpg');"></div>
+                </a>
+                 <a href="#"> 
+    			<h3 class="project-headlines">Arduino Robot</h3>
+    			 </a> 
+    			<div class="project-content">
+    				<div class="tag-holder">
+    				 
+    					
+    					<span class="label tags tag-filter" data-tag="angular js">Angular JS</span>
+    					
+    					<span class="label tags tag-filter" data-tag="api">API</span>
+    					
+    				
+    				</div>
+    				
+    			</div>
+    			<div class="project-footer"> 
+    				 
+    				<a href="#" class="btn btn-info btn-raised btn-sm project-link">View</a>
+    				
+    				<span class="project-timeline">Jan 2014</span>
+    			</div>
+    		</div>
+    	</div>
+        </div>
+    
+    </div>
+  </div>
+
+</article>
+
           <div class="row">
             <div class="col-md-12 col-xs-12 footer">
               <footer>
