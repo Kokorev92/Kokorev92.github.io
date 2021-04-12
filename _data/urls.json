@@ -6,18 +6,18 @@
         "layout": "post"
     },
     {
-        "text": "Обо мне",
-        "url": "/about/",
-        "icon": "fa-comments"
+        "text": "Статьи",
+        "url": "/category",
+        "icon": "fa-graduation-cap"
     },
     {
         "text": "Проекты",
         "url": "/projects",
-        "icon": "fa-desktop"
+        "icon": "fa-gears"
     },
     {
-        "text": "Резюме",
-        "url": "/resume",
-        "icon": "fa-graduation-cap"
+        "text": "Обо мне",
+        "url": "/about/",
+        "icon": "fa-comments"
     }
 ]
