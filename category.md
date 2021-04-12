@@ -1,4 +1,4 @@
 ---
-layout: posts_by_category
+layout: category_list
 title: Статьи по категориям
 ---
