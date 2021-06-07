@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="well">
+    {% if page.subtitle %}
+    <h4 class="home-subtitle">{{ page.subtitle }}</h4>
+    {% endif %}
+    <img src="/static/about/ava.jpg" width="30%" style="float:left; margin:0 10px;">
+    <div style="text-align: justify">
+        {{ content }}
+    </div>
+</div>
