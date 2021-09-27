@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Монтировнаие образов Qemu  
-categories: JavaScript
+categories: All
 ---
 
 Монтирование образа qcow в Ubuntu
