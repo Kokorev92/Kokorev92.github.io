@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: all
+categories: All
 title: All
-permalink: /category/all
+permalink: /category/All
 ---
