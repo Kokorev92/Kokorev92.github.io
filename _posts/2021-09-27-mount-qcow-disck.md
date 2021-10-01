@@ -2,6 +2,7 @@
 layout: post
 title: Монтировнаие образов Qemu  
 categories: Linux
+image: /static/img/posts/qemu_logo.png
 ---
 
 Монтирование образа qcow в Ubuntu
