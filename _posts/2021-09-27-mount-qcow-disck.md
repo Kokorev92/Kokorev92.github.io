@@ -4,6 +4,7 @@ title: Монтировнаие образов Qemu
 categories: Linux
 image: /static/img/posts/qemu_logo.png
 ---
+<img src="/static/img/posts/qemu_logo.png" width="15%" style="float:right; margin:10px 10px;"/>&nbsp;&nbsp;&nbsp;&nbsp;
 
 Монтирование образа qcow в Ubuntu
 -------------------------------
