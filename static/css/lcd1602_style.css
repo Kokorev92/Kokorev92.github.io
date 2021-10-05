@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "LcdFont";
+    src: url("/static/fonts/LCD5x8HRU.ttf") format("truetype");
+    font-style: normal;
+    font-weight:bolder;
+}
+
 table {
   border-collapse: collapse;
   border: 1px solid;
@@ -8,6 +15,7 @@ td {
   height: 30px;
   width: 30px;
   text-align: center;
+  font-family: "LcdFont";
 }
 th {
   border: 1px solid;
