@@ -1,8 +1,9 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/static/css/lcd1602_style.css">
 
-<div>
-    <table>
+<div style="text-align: center;">
+    <table style="margin: auto;">
         <tr>
+            <th></th>
             <th>0</th>
             <th>1</th>
             <th>2</th>
@@ -21,6 +22,7 @@
             <th>15</th>
         </tr>
         <tr id="first">
+            <th>0</th>
             <td id="1"></td>
             <td id="2"></td>
             <td id="3"></td>
@@ -39,6 +41,7 @@
             <td id="16"></td>
         </tr>
         <tr id="second">
+            <th>1</th>
             <td id="20"></td>
             <td id="21"></td>
             <td id="22"></td>
@@ -56,11 +59,9 @@
             <td id="34"></td>
             <td id="35"></td>
         </tr>
-    </table>
+    </table><br />
+    <label for="str1">Строка 0: </label><input type="text" id="str1" /><br />
+    <label for="str2">Строка 1: </label><input type="text" id="str2" />
 </div><br />
-<div>
-    <input type="text" id="str1" /><br />
-    <input type="text" id="str2" />
-</div>
 
 <script src="{{ site.baseurl }}/static/js/lcd1602_script.js"></script>
