@@ -1,33 +1,34 @@
-var string_1 = document.getElementById("str1");
-var string_2 = document.getElementById("str2");
+var string_1 = document.getElementById("str1")
+var string_2 = document.getElementById("str2")
 
-string_1.oninput = function () {
+let on_input_handle = function () {
+
+    let string = ""
+    let c = 0
+
+    if (this.id == "str1") {
+        string = "first"
+        c = 1
+    } else if (this.id == "str2") {
+        string = "second"
+        c = 20
+    }
+
     for (var i = 0; i < 16; i++) {
-        if (typeof string_1.value[i] == "undefined") {
-            document.getElementById((i + 1).toString()).innerHTML = "";
+        if (typeof this.value[i] == "undefined") {
+            document.getElementById((i + c).toString()).innerHTML = ""
         } else {
-            document.getElementById((i + 1).toString()).innerHTML = string_1.value[i];
+            document.getElementById((i + c).toString()).innerHTML = this.value[i]
         }
     }
-    if (string_1.value.length > 16) {
-        document.getElementById("first").style.backgroundColor = "red";
-    } else {
-        document.getElementById("first").style.backgroundColor = "#7d9f32";
-    }
-};
 
-string_2.oninput = function () {
-    for (var i = 0; i < 16; i++) {
-        if (typeof string_2.value[i] == "undefined") {
-            document.getElementById((i + 20).toString()).innerHTML = "";
-        } else {
-            document.getElementById((i + 20).toString()).innerHTML =
-                string_2.value[i];
-        }
-    }
-    if (string_2.value.length > 16) {
-        document.getElementById("second").style.backgroundColor = "red";
+    if (this.value.length > 16) {
+        document.getElementById(string).style.backgroundColor = "red"
     } else {
-        document.getElementById("second").style.backgroundColor = "#7d9f32";
+        document.getElementById(string).style.backgroundColor = "#7d9f32"
     }
-};
+}
+
+string_1.oninput = on_input_handle
+
+string_2.oninput = on_input_handle
