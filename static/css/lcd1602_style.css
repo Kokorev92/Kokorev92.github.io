@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "LcdFont";
+    src: url("/static/fonts/SUBWT.ttf") format("truetype");
+    font-style: normal;
+    font-weight:normal;
+    size: 20px;
+}
+
+table {
+  border-collapse: separate;
+  border: 10px solid;
+   border-color: #87ad34;
+  background-color: #7d9f32;
+}
+td {
+  border: 1px solid;
+  height: 45px;
+  width: 30px;
+  text-align: center;
+  font-family: "LcdFont";
+  border-color: #87ad34;
+}

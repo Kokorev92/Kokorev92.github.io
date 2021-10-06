@@ -7,5 +7,14 @@
         "tags": [
             "Arduino"
         ]
+    },
+    {
+        "name": "LCD1602 calculator",
+        "image": "lcd1602.jpg",
+        "url": "/projects/lcd1602_calc",
+        "date": "Oct 2021",
+        "tags": [
+            "Tools"
+        ]
     }
 ]
