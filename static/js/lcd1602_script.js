@@ -12,7 +12,7 @@ string_1.oninput = function () {
     if (string_1.value.length > 16) {
         document.getElementById("first").style.backgroundColor = "red";
     } else {
-        document.getElementById("first").style.backgroundColor = "#0ed244";
+        document.getElementById("first").style.backgroundColor = "#7d9f32";
     }
 };
 
@@ -28,6 +28,6 @@ string_2.oninput = function () {
     if (string_2.value.length > 16) {
         document.getElementById("second").style.backgroundColor = "red";
     } else {
-        document.getElementById("second").style.backgroundColor = "#0ed244";
+        document.getElementById("second").style.backgroundColor = "#7d9f32";
     }
 };
