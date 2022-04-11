@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://dev-blog.ru/sitemap.xml
