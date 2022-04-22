@@ -1,18 +1,18 @@
 [
     {
-        "icon": "fa-vk",
+        "icon": "fa-brands fa-vk",
         "link": "https://vk.com/dj_jar"
     },
     {
-        "icon": "fa-telegram",
+        "icon": "fa-brands fa-telegram",
         "link": "https://t.me/ntwand"
     },
     {
-        "icon": "fa-github",
+        "icon": "fa-brands fa-github",
         "link": "https://github.com/Kokorev92"
     },
     {
-        "icon": "fa-gitlab",
+        "icon": "fa-brands fa-gitlab",
         "link": "https://gitlab.com/Kokorev92"
     }
 ]
