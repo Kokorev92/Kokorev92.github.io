@@ -3,6 +3,7 @@ layout: post
 title: Монтировнаие образов Qemu  
 categories: Linux
 image: /static/img/posts/qemu_logo.png
+preview: Краткое руководство о том, как монтировать образ жесткого диска Qemu в Linux
 ---
 <img src="/static/img/posts/qemu_logo.png" width="15%" style="float:right; margin:10px 10px;"/>
 
