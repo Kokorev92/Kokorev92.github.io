@@ -4,6 +4,7 @@ title: Создание образов дисков в Linux
 categories: Linux
 image: /static/img/posts/hdd_logo.png
 preview: Создание образов дисков, изменение, запись на диск
+published: false
 ---
 
 ## Работа с образами дисков в Linux
