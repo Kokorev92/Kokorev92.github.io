@@ -8,16 +8,16 @@
     {
         "text": "Статьи",
         "url": "/category",
-        "icon": "fa-graduation-cap"
+        "icon": "fa-book-open"
     },
     {
         "text": "Проекты",
         "url": "/projects",
-        "icon": "fa-cogs"
+        "icon": "fa-screwdriver-wrench"
     },
     {
         "text": "Обо мне",
         "url": "/about/",
-        "icon": "fa-comments"
+        "icon": "fa-person-circle-question"
     }
 ]
