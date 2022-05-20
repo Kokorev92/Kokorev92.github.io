@@ -24,6 +24,17 @@ apt-cache policy docker-ce
 sudo apt install docker-ce 
 
 sudo usermod -aG docker ${USER}
-su - ${USER}
-id -nG
+```
+
+Linux Arch:
+
+```bash
+sudo pacman -S docker
+
+sudo usermod -aG docker ${USER}
+```
+
+Выкачивание образа:
+```bash
+docker pull ubuntu
 ```
