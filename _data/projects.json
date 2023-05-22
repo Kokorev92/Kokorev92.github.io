@@ -1,14 +1,5 @@
 [
     {
-        "name": "Arduino Robot",
-        "image": "arduino-robot.jpg",
-        "url": "/projects/arduino_robot",
-        "date": "Apr 2021",
-        "tags": [
-            "Arduino"
-        ]
-    },
-    {
         "name": "LCD1602 calculator",
         "image": "lcd1602.jpg",
         "url": "/projects/lcd1602_calc",
