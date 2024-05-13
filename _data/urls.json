@@ -16,8 +16,8 @@
         "icon": "fa-screwdriver-wrench"
     },
     {
-        "text": "Обо мне",
+        "text": "О сайте",
         "url": "/about/",
-        "icon": "fa-person-circle-question"
+        "icon": "fa-question-circle-o"
     }
 ]
