@@ -7,14 +7,5 @@
         "tags": [
             "Tools"
         ]
-    },
-    {
-        "name": "Мегавольт",
-        "image": "megavolt.jpg",
-        "url": "/projects/megavolt",
-        "date": "Mar 2023",
-        "tags": [
-            "Education"
-        ]
     }
 ]
